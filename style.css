@@ -1,0 +1,29 @@
+body, html{
+    height:100%;
+}
+
+.parallax {
+    /* The image used */
+    background: url('https://travel.usnews.com/dims4/USNEWS/8887e35/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FNew_Paris_pic_jw04ZlH.jpg') no-repeat;
+  
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    /* The image used */
+    background: url('https://travel.usnews.com/dims4/USNEWS/f75c76a/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FArc_de_Triomphe_Alexander_Spatari_Getty.jpg') no-repeat;
+  
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
