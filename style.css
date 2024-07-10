@@ -30,3 +30,11 @@ body, html{
   nav{
     position:absolute;
   }
+
+  .img{
+    background-image:url(images/portrait-7676482_1280.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+  }
