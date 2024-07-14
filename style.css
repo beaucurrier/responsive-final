@@ -7,12 +7,16 @@ strong{
 }
 
 .logo{
-  width:200px;
-  margin:-40px -20px -60px -20px;
-  padding:0px;
+  margin: -30px 0px -40px -20px;
 }
 
 .squatch{
   width:100px;
   margin: -40px -40px -40px 75px;
+}
+
+.img-fit{
+  max-width: auto;
+  height: auto;
+  object-fit: fill;
 }
