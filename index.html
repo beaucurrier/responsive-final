@@ -31,10 +31,10 @@
         data-bs-target="#offcanvasWithBothOptions"
         aria-controls="offcanvasWithBothOptions"
       >
-        <img src="images/travel.png" alt="" class="logo" />
+        <img src="images/travel.png" alt="Travel Washington" class="logo" />
       </button>
 
-      <!------- offcanvas and accordian ------>
+      <!------- offcanvas and accordian start------>
       <div
         class="offcanvas offcanvas-start bgd-img"
         data-bs-scroll="true"
@@ -42,10 +42,18 @@
         id="offcanvasWithBothOptions"
         aria-labelledby="offcanvasWithBothOptionsLabel"
       >
-        <div class="offcanvas-header bg-dark bg-opacity-10">
+        <div
+          class="offcanvas-header bg-secondary bg-opacity-75 d-flex justify-content-between"
+        >
           <h3 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-            <strong>Travel Washington</strong>
+            <strong
+              ><span class="travel">Travel</span
+              ><span class="washington">Washington</span></strong
+            >
           </h3>
+          <a href="contact.html" class="link-dark">
+            <i class="fa-regular fa-paper-plane"></i>
+          </a>
           <img
             type="button"
             class="squatch"
@@ -89,7 +97,12 @@
                         diverse neighborhoods, vibrant arts, and a thriving food
                         scene. Explore the Emerald City!
                       </p>
+
                       <a href="seattle.html" class="btn btn-info">Visit</a>
+                      <!-- contact -->
+                      <a href="contact.html" class="link-dark mx-5">
+                        <i class="fa-regular fa-paper-plane"></i>
+                      </a>
                       <img
                         type="button"
                         class="squatch"
@@ -136,6 +149,10 @@
                         rich cultural heritage.
                       </p>
                       <a href="Spokane.html" class="btn btn-info">Visit</a>
+                      <!-- contact -->
+                      <a href="contact.html" class="link-dark mx-5">
+                        <i class="fa-regular fa-paper-plane"></i>
+                      </a>
                       <img
                         type="button"
                         class="squatch"
@@ -181,6 +198,10 @@
                         and the charming downtown district.
                       </p>
                       <a href="Tacoma.html" class="btn btn-info">Visit</a>
+                      <!-- contact -->
+                      <a href="contact.html" class="link-dark mx-5">
+                        <i class="fa-regular fa-paper-plane"></i>
+                      </a>
                       <img
                         type="button"
                         class="squatch"
@@ -196,7 +217,7 @@
           </div>
         </div>
       </div>
-      <!------- offcanvas and accordian ------>
+      <!------- offcanvas and accordian end ------>
 
       <div
         id="carouselExampleSlidesOnly"
@@ -252,7 +273,7 @@
       </div>
       <!-------- footer -------- from bootstrap MDBootstrap.com -->
       <!-- Remove the container if you want to extend the Footer to full width. -->
-      <div class="my-5">
+      <div class="my-4">
         <footer class="bg-light text-center text-white">
           <!-- Grid container -->
           <div class="container p-4 pb-0">
@@ -322,6 +343,10 @@
           >
             © 2024 Copyright:
             <a class="text-white" href="/">travelwashington.com</a>
+            <!-- contact -->
+            <a href="contact.html" class="link-dark">
+              <i class="fa-regular fa-paper-plane"></i>
+            </a>
           </div>
           <!-- Copyright -->
         </footer>
