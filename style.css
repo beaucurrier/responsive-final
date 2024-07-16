@@ -1,3 +1,8 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 .bgd-img{
   background-image: url(images/seattle-3429902_1280.jpg) ;
   background-size: cover;
@@ -31,3 +36,4 @@
 .washington{
   color:#7dff5a;
 }
+
